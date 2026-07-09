@@ -1,11 +1,11 @@
-# Credit Card Fraud Detection
+# Credit Card Fraud Analysis and Detection
 ## Overview
 **Note:**
 The dataset was too larget to upload directly to GitHub, you can find it here on Kaggle: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
-This project builds machine learning models to detect fraudulent credit card transactions in a highly imbalanced dataset. The objective is to identify fraud accurately while minimizing false positives, reflecting real-world constraints in financial systems.
+Credit providers process millions of credit card transactions every day. Detecting fraudulent transactions quickly is essential for minimizing loss while reducing false positives that are inconvenient to legitimate customers. This project analyzes over 280,000 transactions to identify fraud patterns, build analytical dashboards and evaluate ML models for fraud detection. 
 
-The workflow covers exploratory data analysis, model development, threshold optimization, and final evaluation on a held-out test set.
+The workflow covers data cleaning, exploratory data analysis,  SQL based analyisis, dashboard development, predictive modeling and final business insights. 
 
 ## Dataset
 - Highly imbalanced dataset with fraud representing a small fraction of transactions
@@ -31,6 +31,8 @@ Hyperparameter tuning for tree-based models
 Regularization to control overfitting
 
 ## Results
+
+### Analytical Findings:
 
 **Final model: XGBoost**
 F1 Score: 0.86
