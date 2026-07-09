@@ -33,6 +33,21 @@ Regularization to control overfitting
 ## Results
 
 ### Analytical Findings:
+The exploratory and SQL-based analysis identified several key fraud patterns:
+
+- Fraud represented a very small percentage of all transactions, highlighting the importance of monitoring highly imbalanced data.
+- Fraudulent transactions occurred disproportionately during specific time periods, indicating temporal patterns that could support real-time monitoring.
+- Higher-value transactions showed elevated fraud risk compared with typical transaction amounts.
+- Data validation and exploratory analysis confirmed the dataset was suitable for downstream modeling and dashboard reporting.
+
+Interactive dashboards were developed to: 
+- Determine total transactions
+- Fraud rate
+- Fraud by transaction amount
+- Fraud trends over time
+- High risk transaction segments 
+
+## Predictive Model Performance:
 
 **Final model: XGBoost**
 F1 Score: 0.86
