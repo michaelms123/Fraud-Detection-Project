@@ -67,9 +67,11 @@ The model achieves high precision, meaning flagged transactions are highly likel
 - Regularization improved generalization and model stability
 
 ## Tech Stack
+- SQL (PostgreSQL)
 - Python
+- Pandas
+- NumPy
+- Tableau
+- Matplotlib
 - Scikit-learn
 - XGBoost
-- LightGBM
-- Pandas, NumPy
-- Matplotlib, Seaborn
