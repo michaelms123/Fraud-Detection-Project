@@ -21,15 +21,6 @@ Logistic Regression (baseline)
 Random Forest
 LightGBM
 XGBoost (final model)
-## Methodology
-Stratified train/validation/test split
-Evaluation metrics:
-F1 Score
-ROC-AUC
-Average Precision Score (PR-AUC)
-Threshold optimization to balance precision and recall
-Hyperparameter tuning for tree-based models
-Regularization to control overfitting
 
 ## Results
 
