@@ -46,7 +46,11 @@ Interactive dashboards were developed to:
 - Fraud rate
 - Fraud by transaction amount
 - Fraud trends over time
-- High risk transaction segments 
+- High risk transaction segments
+
+<img width="1591" height="841" alt="Screenshot 2026-07-09 205548" src="https://github.com/user-attachments/assets/c6cbbb09-4bd5-40c7-a0b3-cac9cc24b082" />
+<img width="1577" height="341" alt="Screenshot 2026-07-09 205606" src="https://github.com/user-attachments/assets/2279b0c8-a11a-4197-8c92-38d9e055a6d9" />
+
 
 ## Predictive Model Performance:
 
