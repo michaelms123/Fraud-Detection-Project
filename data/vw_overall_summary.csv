@@ -1,0 +1,2 @@
+"total_transactions","fraud_transactions","fraud_percentage","legitimate_percentage","average_transaction_amount","minimum_transaction_amount","median_transaction_amount","maximum_transaction_amount","average_fraud_amount","average_legitimate_amount"
+"283726","473","0.1667","99.8333","88.47268731093955","0","22","25691.16","123.87186046511626","88.41357475466687"
