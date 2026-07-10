@@ -2,6 +2,7 @@
 ## Overview
 **Note:**
 The dataset was too larget to upload directly to GitHub, you can find it here on Kaggle: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+You can access the public Tableau dashboard here: https://public.tableau.com/views/frauddetectionwb/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 Credit providers process millions of credit card transactions every day. Detecting fraudulent transactions quickly is essential for minimizing loss while reducing false positives that are inconvenient to legitimate customers. This project analyzes over 280,000 transactions to identify fraud patterns, build analytical dashboards and evaluate ML models for fraud detection. 
 
