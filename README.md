@@ -1,11 +1,12 @@
-# Credit Card Fraud Detection
+# Credit Card Fraud Analysis and Detection
 ## Overview
 **Note:**
 The dataset was too larget to upload directly to GitHub, you can find it here on Kaggle: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+You can access the public Tableau dashboard here: https://public.tableau.com/views/frauddetectionwb/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
-This project builds machine learning models to detect fraudulent credit card transactions in a highly imbalanced dataset. The objective is to identify fraud accurately while minimizing false positives, reflecting real-world constraints in financial systems.
+Credit providers process millions of credit card transactions every day. Detecting fraudulent transactions quickly is essential for minimizing loss while reducing false positives that are inconvenient to legitimate customers. This project analyzes over 280,000 transactions to identify fraud patterns, build analytical dashboards and evaluate ML models for fraud detection. 
 
-The workflow covers exploratory data analysis, model development, threshold optimization, and final evaluation on a held-out test set.
+The workflow covers data cleaning, exploratory data analysis,  SQL based analyisis, dashboard development, predictive modeling and final business insights. 
 
 ## Dataset
 - Highly imbalanced dataset with fraud representing a small fraction of transactions
@@ -32,6 +33,23 @@ Regularization to control overfitting
 
 ## Results
 
+### Analytical Findings:
+The exploratory and SQL-based analysis identified several key fraud patterns:
+
+- Fraud represented a very small percentage of all transactions, highlighting the importance of monitoring highly imbalanced data.
+- Fraudulent transactions occurred disproportionately during specific time periods, indicating temporal patterns that could support real-time monitoring.
+- Higher-value transactions showed elevated fraud risk compared with typical transaction amounts.
+- Data validation and exploratory analysis confirmed the dataset was suitable for downstream modeling and dashboard reporting.
+
+Interactive dashboards were developed to: 
+- Determine total transactions
+- Fraud rate
+- Fraud by transaction amount
+- Fraud trends over time
+- High risk transaction segments 
+
+## Predictive Model Performance:
+
 **Final model: XGBoost**
 F1 Score: 0.86
 Precision: 0.95
@@ -50,9 +68,11 @@ The model achieves high precision, meaning flagged transactions are highly likel
 - Regularization improved generalization and model stability
 
 ## Tech Stack
+- SQL (PostgreSQL)
 - Python
+- Pandas
+- NumPy
+- Tableau
+- Matplotlib
 - Scikit-learn
 - XGBoost
-- LightGBM
-- Pandas, NumPy
-- Matplotlib, Seaborn
